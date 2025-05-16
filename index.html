@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="og:url" content="https://url/" />
+    <meta property="og:title" content="Treexle's Portfolio 💻" />
+    <meta
+      property="og:description"
+      content="Portoflio of my work and customer stories."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treexle's Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-logo">
+          <img src="logo.png" alt="Logo" />
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li class="dropdown">
+            <a href="#">Services <span class="arrow">&#9662;</span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Design</a></li>
+              <li><a href="#">Consulting</a></li>
+            </ul>
+          </li>
+        </ul>
+        <button class="about-btn">About</button>
+        <button
+          id="theme-toggle"
+          aria-label="Toggle dark mode"
+          style="
+            margin-left: 1rem;
+            border-radius: 50%;
+            width: 38px;
+            height: 38px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            font-size: 1.3rem;
+          "
+        >
+          🌙
+        </button>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
